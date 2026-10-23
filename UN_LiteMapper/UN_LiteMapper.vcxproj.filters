@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{9ffe5d84-1a32-4f84-ad65-9baea7f593ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{c84c9328-4dda-4e68-afa9-4f7dc51244ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Tool">
+      <UniqueIdentifier>{14518b33-95e9-4953-8e52-fa2274af079c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Tool\Wsk">
+      <UniqueIdentifier>{a386bf85-3ba4-4472-b442-dde52e16f48e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Tool\Kli">
+      <UniqueIdentifier>{9a32ce76-91a0-433f-902c-5ddedfdf5dac}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="UN_LiteMapper.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Api_Dynamic.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="InitShellCode.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ClearTraces.hpp">
+      <Filter>Header Files\Tool</Filter>
+    </ClInclude>
+    <ClInclude Include="ScatteredMapper.hpp">
+      <Filter>Header Files\Tool</Filter>
+    </ClInclude>
+    <ClInclude Include="lde.hpp">
+      <Filter>Header Files\Tool</Filter>
+    </ClInclude>
+    <ClInclude Include="Wsk.hpp">
+      <Filter>Header Files\Tool\Wsk</Filter>
+    </ClInclude>
+    <ClInclude Include="Kli\kli_api.hpp">
+      <Filter>Header Files\Tool\Kli</Filter>
+    </ClInclude>
+    <ClInclude Include="Kli\kli_crypt.hpp">
+      <Filter>Header Files\Tool\Kli</Filter>
+    </ClInclude>
+    <ClInclude Include="Kli\kli_mba.hpp">
+      <Filter>Header Files\Tool\Kli</Filter>
+    </ClInclude>
+    <ClInclude Include="Kli\kli_runtime.hpp">
+      <Filter>Header Files\Tool\Kli</Filter>
+    </ClInclude>
+    <ClInclude Include="Kli\kli_seed.hpp">
+      <Filter>Header Files\Tool\Kli</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="UN_LiteMapper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
